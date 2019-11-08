@@ -767,6 +767,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_button
 id spacer
 id split_action_bar
 id spread
