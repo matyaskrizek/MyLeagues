@@ -6,13 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/login_background"
+        android:layout_width="615dp"
+        android:layout_height="974dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login_background"
+        tools:layout_editor_absoluteX="-96dp"
+        tools:layout_editor_absoluteY="-223dp"
+        android:scaleType="centerCrop"/>
+
     <Button
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginRight="156dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
         android:text="login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="-48dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -51,8 +61,10 @@
         android:layout_marginLeft="48dp"
         android:layout_marginTop="272dp"
         android:hint="Password"
-        android:inputType="text"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    :layout_editor_absoluteY="99dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
