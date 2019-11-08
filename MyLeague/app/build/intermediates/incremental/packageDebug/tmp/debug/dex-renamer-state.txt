@@ -1,0 +1,4 @@
+#Fri Nov 08 12:54:35 PST 2019
+base.0=C\:\\Users\\mkrizek\\OneDrive - Stars Behavioral Health Group\\Desktop\\Repositories\\MyLeagues\\MyLeague\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
